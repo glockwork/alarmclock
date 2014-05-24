@@ -7,11 +7,11 @@ GPIO.setup(7,GPIO.OUT)
 
 
 var=1
-print "Start Loop"
+print ("Start Loop")
 while var ==1 :
-    print "Set output to False"
+    print ("Set output to False")
     GPIO.output(7,False)
     time.sleep(1)
-    print "Set output to True"
+    print ("Set output to True")
     GPIO.output(7,True)
     time.sleep(1)
